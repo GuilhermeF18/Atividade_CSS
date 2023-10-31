@@ -1,0 +1,190 @@
+@charset 'utf-8';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 0;
+    margin: auto;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+main {
+
+    border-color: black;
+    border-width: 100%;
+}
+
+
+nav {
+    background-color: #000000;
+    color: white;
+    padding: 35px ;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2); 
+    background-image: url(img/Cars.gif);
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+}
+
+
+
+nav > ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav > ul > li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav > ul > li > a:hover {
+
+    background-color: rgb(230, 17, 17);
+    border-radius: 4px double #000;
+    border-radius: 10px;
+    color: #FFF;
+
+}
+
+
+section {
+    float: left;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    width: 100%;
+    height:250px;
+    margin-top: 20px;
+    border-radius: 50px;
+    
+}
+
+h1 {
+    background-color: #1ac00e;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 50px;
+    font-family: Verdana;
+    
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    background-color: rgb(83, 235, 12);
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: Verdana;
+
+}
+
+.cor {
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 134, 7);
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: Verdana;
+    border-radius: 30px;
+}
+
+
+h2 {
+    text-align: left;
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: Verdana;
+}
+
+ul > li {
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: Verdana;
+}
+
+p {
+    text-indent: 20pt;
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: auto;
+    line-height: -5px;
+}
+ 
+h3 {
+    text-indent: 5pt;
+    text-align: left;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.produto {
+    text-align: left;
+    margin: 20px;
+    float: left;
+    width: 45%;
+    padding: 10px;
+    border: 7px solid #6b6b6b; 
+    border-radius: 10px;
+}
+
+.produto > img {
+    width: 500px;
+    height: 350px;
+}
+
+.infocontato {
+
+    text-align: center;
+
+}
+
+.campo {
+
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.top {
+
+    margin-top: 120px;
+}
+
+.center {
+
+    text-align: center;
+}
+
+.conteudo {
+    flex: 1; 
+    padding: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 6800px;
+}
